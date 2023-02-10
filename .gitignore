@@ -4,3 +4,8 @@ base/migrations/
 studybud/
 /manage.py
 /db.sqlite3
+base/__init__.py
+base/admin.py
+base/forms.py
+base/apps.py
+base/tests.py

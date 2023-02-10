@@ -1,0 +1,6 @@
+env/
+base/__pycache__/
+base/migrations/
+studybud/
+/manage.py
+/db.sqlite3

@@ -180,3 +180,7 @@ def updateUser(request):
             return redirect('user-profile', pk=user.id)
     context = {'form': form}
     return render(request, 'base/update-user.html', context)
+
+def topicPage(request):
+    context = {}
+    return render(request, 'base/topics.html', context)

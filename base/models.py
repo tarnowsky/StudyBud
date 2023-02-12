@@ -6,7 +6,7 @@ class User(AbstractUser):
     email = models.EmailField(unique=True)
     bio = models.TextField(null=True)
 
-    avatar = models.ImageField()
+    avatar = models.ImageField(null=True, default='avatar.svg')
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []

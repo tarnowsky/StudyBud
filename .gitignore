@@ -1,10 +1,1 @@
 env/
-base/__pycache__/
-base/migrations/
-studybud/
-/manage.py
-/db.sqlite3
-base/__init__.py
-base/admin.py
-base/apps.py
-base/tests.py

@@ -30,6 +30,23 @@ Main topics for this learing course are:
 
 ==========================================
 
+## If you want to check out this project on your local host follow these steps:
+
+Be sure you've got installed: 
+  ### -Django Rest Framework
+  ### -Django Cors Headers
+  ### -Pillow
+
+If not do the following:
+
+  1. Install Django Rest framework (for ex. "pip install djangorestframework")
+  2. Install cors headers for Django (for ex. "pip install django-cors-headers")
+  3. Install Pillow python image library (for ex. "pip install Pillow")
+
+After that you should be able to run the "python manage.py runserver" command
+
+===========================================
+
 ![obraz](https://user-images.githubusercontent.com/95852320/218067018-e64afc64-d363-40f2-a745-c3c07f58c687.png)
 ![obraz](https://user-images.githubusercontent.com/95852320/218066771-b79bd733-943a-43e4-86a8-b1270e27631f.png)
 

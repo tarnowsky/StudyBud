@@ -41,7 +41,7 @@ Aplikacja umożliwia dyskusje na tematy IT, tworzenie pokoi, profili użytkownik
 
 # 🇺🇸 StudyBud
 
-A simple web application using the Django framework, created based on a 7-hour YouTube course.
+A simple web application using the Django framework, created based on a YouTube course.
 
 ## Description
 The application enables discussions on IT topics, creating rooms, user profiles, and collaborative learning.

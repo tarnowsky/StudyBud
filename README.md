@@ -1,55 +1,80 @@
-# StudyBud
-Simple web application using Django framework. Result of a 7h Youtube Django Course
+# 🇵🇱 StudyBud
 
-Course -> https://www.youtube.com/watch?v=PtQiiknWUcI&t=1165s
+Prosta aplikacja webowa wykorzystująca framework Django, stworzona na podstawie kursu YouTube.
 
-Web application for people to talk about IT topics, making rooms, creating profiles, and studying together.
+## Opis
+Aplikacja umożliwia dyskusje na tematy IT, tworzenie pokoi, profili użytkowników oraz wspólną naukę.
 
-==========================================
+## Główne tematy kursu
+1. Widoki i URL-e
+2. Szablony
+3. Baza danych i panel admina
+4. CRUD
+5. Wyszukiwanie
+6. Logowanie użytkownika
+7. Komunikaty Flash
+8. Wylogowywanie
+9. Strony z ograniczonym dostępem
+10. Rejestracja użytkownika
+11. CRUD wiadomości w pokojach czatowych
+12. Feed aktywności
+13. Strona profilu użytkownika
+14. Pliki statyczne
+15. Edycja konta użytkownika
+16. Responsywność mobilna
+17. Django REST Framework
+18. Dostosowywanie modelu użytkownika
+19. Integracja niestandardowego modelu użytkownika
 
-Main topics for this learing course are:
-  1. Views & URL's
-  2. Templates
-  3. Database & Admin Panel
-  4. CRUD
-  5. Search
-  6. User Login
-  7. Flash Messages
-  8. User Logout
-  9. Restricted Pages
-  10. User registration
-  11. Chat Room Messages CRUD
-  12. Activity Feed
-  13. User Profile Page
-  14. Static Files
-  15. Edit User Account Page
-  16. Mobile Responsiveness
-  17. Django REST Framework
-  18. Customizing User model
-  19. Integrating Custom User Model
+## Instalacja i uruchomienie
+1. Zainstaluj wymagane biblioteki:
+   - Django Rest Framework
+   - Django Cors Headers
+   - Pillow
+2. Uruchom serwer: `python manage.py runserver`
 
-==========================================
+## Źródła
+- Kurs YouTube: [Link do kursu](https://www.youtube.com/watch?v=PtQiiknWUcI&t=1165s)
+- Kod źródłowy projektu: [GitHub](https://github.com/divanov11/StudyBud/)
+- Autorzy: Traversy Media i Dennis Ivy - [Kanał YouTube](https://www.youtube.com/c/dennisivy)
 
-## If you want to check out this project on your local host follow these steps:
 
-Be sure you've got installed: 
-  ### -Django Rest Framework
-  ### -Django Cors Headers
-  ### -Pillow
+# 🇺🇸 StudyBud
 
-If not do the following:
+A simple web application using the Django framework, created based on a 7-hour YouTube course.
 
-  1. Install Django Rest framework (for ex. "pip install djangorestframework")
-  2. Install cors headers for Django (for ex. "pip install django-cors-headers")
-  3. Install Pillow python image library (for ex. "pip install Pillow")
+## Description
+The application enables discussions on IT topics, creating rooms, user profiles, and collaborative learning.
 
-After that you should be able to run the "python manage.py runserver" command
+## Main Course Topics
+1. Views and URLs
+2. Templates
+3. Database and Admin Panel
+4. CRUD
+5. Search
+6. User Login
+7. Flash Messages
+8. User Logout
+9. Restricted Pages
+10. User Registration
+11. Chat Room Messages CRUD
+12. Activity Feed
+13. User Profile Page
+14. Static Files
+15. Edit User Account Page
+16. Mobile Responsiveness
+17. Django REST Framework
+18. Customizing User Model
+19. Integrating Custom User Model
 
-===========================================
+## Installation and Launch
+1. Install required libraries:
+   - Django Rest Framework
+   - Django Cors Headers
+   - Pillow
+2. Run the server: `python manage.py runserver`
 
-![obraz](https://user-images.githubusercontent.com/95852320/218067018-e64afc64-d363-40f2-a745-c3c07f58c687.png)
-![obraz](https://user-images.githubusercontent.com/95852320/218066771-b79bd733-943a-43e4-86a8-b1270e27631f.png)
-
-All credits to Traversy Media and Dennis Ivy - https://www.youtube.com/c/dennisivy
-
-Source code of the main project - https://github.com/divanov11/StudyBud/
+## Sources
+- YouTube Course: [Course Link](https://www.youtube.com/watch?v=PtQiiknWUcI&t=1165s)
+- Project Source Code: [GitHub](https://github.com/divanov11/StudyBud/)
+- Authors: Traversy Media and Dennis Ivy - [YouTube Channel](https://www.youtube.com/c/dennisivy)

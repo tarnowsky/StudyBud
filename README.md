@@ -1,80 +1,80 @@
-# 🇵🇱 StudyBud
+# StudyBud
 
-Prosta aplikacja webowa wykorzystująca framework Django, stworzona na podstawie kursu YouTube.
+## Project Overview
+StudyBud is a collaborative web application developed using the Django framework, designed to facilitate interactive learning and knowledge sharing in the IT domain. The project serves as a comprehensive demonstration of modern web development practices and Django framework capabilities.
 
-## Opis
-Aplikacja umożliwia dyskusje na tematy IT, tworzenie pokoi, profili użytkowników oraz wspólną naukę.
+## Educational Objectives
+The application showcases key web development and Django framework concepts through practical implementation:
 
-## Główne tematy kursu
-1. Widoki i URL-e
-2. Szablony
-3. Baza danych i panel admina
-4. CRUD
-5. Wyszukiwanie
-6. Logowanie użytkownika
-7. Komunikaty Flash
-8. Wylogowywanie
-9. Strony z ograniczonym dostępem
-10. Rejestracja użytkownika
-11. CRUD wiadomości w pokojach czatowych
-12. Feed aktywności
-13. Strona profilu użytkownika
-14. Pliki statyczne
-15. Edycja konta użytkownika
-16. Responsywność mobilna
-17. Django REST Framework
-18. Dostosowywanie modelu użytkownika
-19. Integracja niestandardowego modelu użytkownika
+### Core Development Concepts
+1. **Web Application Architecture**
+   - URL routing and view management
+   - Template rendering
+   - Database interaction
+   - Authentication mechanisms
 
-## Instalacja i uruchomienie
-1. Zainstaluj wymagane biblioteki:
-   - Django Rest Framework
-   - Django Cors Headers
-   - Pillow
-2. Uruchom serwer: `python manage.py runserver`
+2. **Advanced Django Features**
+   - CRUD (Create, Read, Update, Delete) operations
+   - User authentication and authorization
+   - Dynamic search functionality
+   - User profile management
+   - Messaging systems
+   - Activity tracking
 
-## Źródła
-- Kurs YouTube: [Link do kursu](https://www.youtube.com/watch?v=PtQiiknWUcI&t=1165s)
-- Kod źródłowy projektu: [GitHub](https://github.com/divanov11/StudyBud/)
-- Autorzy: Traversy Media i Dennis Ivy - [Kanał YouTube](https://www.youtube.com/c/dennisivy)
+3. **Technical Implementation Highlights**
+   - RESTful API design
+   - Custom user model integration
+   - Responsive web design
+   - Static file management
+   - Cross-platform compatibility
 
+## Technical Stack
+- **Backend**: Django (Python)
+- **Frontend**: HTML, CSS, JavaScript
+- **Additional Libraries**:
+  - Django Rest Framework
+  - Django Cors Headers
+  - Pillow (Image Processing)
 
-# 🇺🇸 StudyBud
+## Key Features
+- Create and manage discussion rooms
+- User profile customization
+- Real-time messaging
+- Activity feed
+- Comprehensive search functionality
+- Mobile-responsive design
 
-A simple web application using the Django framework, created based on a YouTube course.
+## Learning Resources
+### Instructional Reference
+This project was developed following an advanced web development tutorial by industry professionals:
+- **Instructors**: Dennis Ivy, Traversy Media
+- **Professional Development Platform**: Comprehensive Web Development Tutorial
+- **Detailed Tutorial**: Advanced Django Web Application Development
 
-## Description
-The application enables discussions on IT topics, creating rooms, user profiles, and collaborative learning.
+## Setup and Deployment
 
-## Main Course Topics
-1. Views and URLs
-2. Templates
-3. Database and Admin Panel
-4. CRUD
-5. Search
-6. User Login
-7. Flash Messages
-8. User Logout
-9. Restricted Pages
-10. User Registration
-11. Chat Room Messages CRUD
-12. Activity Feed
-13. User Profile Page
-14. Static Files
-15. Edit User Account Page
-16. Mobile Responsiveness
-17. Django REST Framework
-18. Customizing User Model
-19. Integrating Custom User Model
+### Prerequisites
+- Python 3.8+
+- Django Framework
+- pip package manager
 
-## Installation and Launch
-1. Install required libraries:
-   - Django Rest Framework
-   - Django Cors Headers
-   - Pillow
-2. Run the server: `python manage.py runserver`
+### Installation Steps
+```bash
+# Clone the repository
+git clone <repository-url>
 
-## Sources
-- YouTube Course: [Course Link](https://www.youtube.com/watch?v=PtQiiknWUcI&t=1165s)
-- Project Source Code: [GitHub](https://github.com/divanov11/StudyBud/)
-- Authors: Traversy Media and Dennis Ivy - [YouTube Channel](https://www.youtube.com/c/dennisivy)
+# Install dependencies
+pip install -r requirements.txt
+
+# Run database migrations
+python manage.py migrate
+
+# Launch development server
+python manage.py runserver
+```
+
+## Deployment Considerations
+- Configure production settings
+- Set up database migrations
+- Implement environment-specific configurations
+
